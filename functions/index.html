@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS Functions</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body onload="changeBGColor()">
+		<h1>How about doing some math!</h1>
+		<input id="num1" type="number"> <strong>X</strong> <input id="num2" type="number"> <input type="button" value="Calculate!" onclick="displayCalculation()">
+		<h3 id="answerText"></h3>
+		<hr>
+
+		<!------------------------------------------------------------------------->
+		<h1 id="nameText">Try typing your name in the textbox</h1>
+		<input id="userName" type="text" placeholder="Please Enter Name" onchange="changeUserName()">
+		<hr>
+
+		<!------------------------------------------------------------------------->
+		<h1 id="clicksDisplay">How many times can you click this button?</h1>
+		<input type="button" value="Click Me!" onclick="increaseMyClicks()">
+		<hr>
+
+		<!------------------------------------------------------------------------->
+		<h1>Hover over this image</h1>
+		<img id="pic" src="https://media.giphy.com/media/3o6gaZiWBQbZw7MBUI/giphy.gif" onmouseover="hoverImg()" onmouseleave="leaveImg()">
+
+		<script src="script.js"></script>
+	</body>
+</html>
